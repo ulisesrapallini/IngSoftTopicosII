@@ -7,5 +7,5 @@ import { Item } from "./model/Item";
   styles: []
 })
 export class AppComponent {
-  title = 'to-do list';
+  title = 'To Do List';
 }
