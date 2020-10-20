@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Item } from '../model/Item';
 
 @Component({
   selector: 'app-mainlist',
@@ -7,7 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainlistComponent implements OnInit {
 
-  constructor() { }
+  items : Item[]; // agrego la lista de Items
+
+  constructor() { 
+    // inicializo los Items a visualizar
+		this.items = [
+      new Item('Comprar SSD'),
+      new Item('Comprar GPU'),
+      new Item('Alquilar Pelicula')
+   ];
+
+  }
 
   ngOnInit(): void {
   }
