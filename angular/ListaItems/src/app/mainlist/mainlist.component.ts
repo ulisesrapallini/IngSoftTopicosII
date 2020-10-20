@@ -13,9 +13,9 @@ export class MainlistComponent implements OnInit {
   constructor() { 
     // inicializo los Items a visualizar
 		this.items = [
-      new Item('Comprar SSD'),
-      new Item('Comprar GPU'),
-      new Item('Alquilar Pelicula')
+      new Item('Comprar SSD - '),
+      new Item('Comprar GPU - '),
+      new Item('Alquilar Pelicula - ')
    ];
 
   }
