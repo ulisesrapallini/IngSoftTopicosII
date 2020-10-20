@@ -23,4 +23,13 @@ export class MainlistComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  // remover el Item
+  OnRemove(anItem):void {
+    this.items = this.items.filter(item => item !== anItem);
+  }
+  
+  // edicion del Item
+  OnEdit(){
+
+  }
 }
