@@ -7,7 +7,12 @@ import { Item } from './model/Item';
 export class DataService {
   items :Item[];
 
-  constructor() { }
+  constructor() { 
+    this.items = [
+      new Item('Comprar SSD - '),
+      new Item('Comprar GPU - '),
+      new Item('Alquilar Pelicula - ')];
+  }
 
   addItem(item:Item){
     this.items.push(item);

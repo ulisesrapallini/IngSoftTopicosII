@@ -7,7 +7,8 @@ import { NewItemComponent } from './new-item/new-item.component';
 const routes: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: 'home', component: MainlistComponent },
-    { path: 'new-item', component: NewItemComponent }
+    { path: 'new-item', component: NewItemComponent },
+    { path: 'modify/:idx', component: NewItemComponent }
 ];
 
 @NgModule({

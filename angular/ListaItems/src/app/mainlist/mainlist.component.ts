@@ -15,10 +15,7 @@ export class MainlistComponent implements OnInit {
   constructor(private service:DataService) {
     
     // inicializo los Items a visualizar
-		/*this.items = [
-      new Item('Comprar SSD - '),
-      new Item('Comprar GPU - '),
-      new Item('Alquilar Pelicula - ')*/
+		//this.items = this.items1();
     };
    
    items(){
