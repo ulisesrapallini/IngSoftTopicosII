@@ -21,7 +21,6 @@ export class MainlistComponent implements OnInit {
    items(){
      return this.service.getItemList();
    }
-
   
   ngOnInit(): void {
   }

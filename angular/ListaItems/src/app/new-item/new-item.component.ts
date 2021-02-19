@@ -12,9 +12,10 @@ import { FormGroup, FormsModule, FormControl, ReactiveFormsModule } from '@angul
 
 export class NewItemComponent implements OnInit {
   item:Item;
-  idx: number;
+  idx: string;
   newItemForm: FormGroup;
   constructor(private router:Router, private route:ActivatedRoute, private service:DataService) {
+    this.idx = this.route.snapshot.paramMap.get('idx');
     this.newItemForm = new FormGroup({
       itemName: new FormControl()
     });
@@ -23,7 +24,7 @@ export class NewItemComponent implements OnInit {
 
   ngOnInit(): void {
     //this.addItem(new Item(this.newItemForm.get('itemName').value));
-    this.idx=+this.route.snapshot.paramMap.get('idx');
+    this.idx= this.route.snapshot.paramMap.get('idx');
     if(this.idx==null){ 
       this.item = new Item("");
     }
