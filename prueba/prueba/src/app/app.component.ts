@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Prueba de Angular + loopback + mongo DB altlas';
+  encabezado = 'UNLP - Maestria en Ing. del Software - Trabajo final - TOPICOS II';
+  title = 'Meeting-o-Matic: Angular + loopback + mongo DB atlas';
 }

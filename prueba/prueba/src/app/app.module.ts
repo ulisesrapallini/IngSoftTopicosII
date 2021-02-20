@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { PruebacentralComponent } from './pruebacentral/pruebacentral.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+// TABS de Material
+import { MatTabsModule } from '@angular/material/tabs';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +17,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatTabsModule   // esta es la referencia para usar los TABS
   ],
   providers: [],
   bootstrap: [AppComponent]
