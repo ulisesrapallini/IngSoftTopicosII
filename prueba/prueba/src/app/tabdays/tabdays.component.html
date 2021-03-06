@@ -1,0 +1,18 @@
+<p>
+   
+    <form>
+    <section class="mat-checkboxes-box">
+        <mat-checkbox class="mat-checkboxes">Dias inicio y fin</mat-checkbox>
+        <mat-checkbox class="mat-checkboxes">Dia unico</mat-checkbox>
+        <mat-checkbox class="mat-checkboxes">Multiples dias</mat-checkbox>
+    </section>
+
+    <mat-form-field appearance="fill">
+        <mat-label>{{dia1}}</mat-label>
+        <input matInput [matDatepicker]="picker">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+    
+</form>
+</p>

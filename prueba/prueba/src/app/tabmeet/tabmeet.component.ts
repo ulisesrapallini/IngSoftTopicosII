@@ -5,11 +5,13 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './tabmeet.component.html',
   styleUrls: ['./tabmeet.component.css']
 })
-export class TabmeetComponent implements OnInit {
+export class TabMeetComponent implements OnInit {
 
   constructor() { }
 
   ngOnInit(): void {
   }
+  
+  
 
 }
