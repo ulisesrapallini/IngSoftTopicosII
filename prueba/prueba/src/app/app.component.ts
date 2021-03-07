@@ -1,11 +1,15 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
+/**
+ * @title Basic use of the tab group
+ */
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: 'app.component.html',
 })
-export class AppComponent {
-  encabezado = 'UNLP - Maestria en Ing. del Software - Trabajo final - TOPICOS II';
-  title = 'Meeting-o-Matic: Angular + loopback + mongo DB atlas';
-}
+export class AppComponent {}
+
+
+/**  Copyright 2020 Google LLC. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license */
