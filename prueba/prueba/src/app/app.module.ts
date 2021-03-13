@@ -8,14 +8,14 @@ import { MaterialModule } from "./material-module";
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { MatNativeDateModule } from '@angular/material/core';
-
 import {MAT_FORM_FIELD_DEFAULT_OPTIONS} from '@angular/material/form-field';
-
 import { ReunionComponent } from './reunion/reunion.component';
+import { PrincipalComponent } from './principal/principal.component';
+import { CompartirComponent } from './compartir/compartir.component';
 
 
 @NgModule({
-  declarations: [AppComponent, ReunionComponent,],//ReunionComponent],
+  declarations: [AppComponent, ReunionComponent, PrincipalComponent, CompartirComponent,],//ReunionComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
